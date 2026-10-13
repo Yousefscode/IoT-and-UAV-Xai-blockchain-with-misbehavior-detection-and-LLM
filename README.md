@@ -9,7 +9,7 @@ The consensus, detection and explainability work (Parts 1–2) is also published
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![Ollama](https://img.shields.io/badge/LLMs-Ollama%20(local)-black)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yousefscode/IoT-and-UAV-Xai-blockchain-with-misbehavior-detection-and-LLM/blob/main/notebooks/xai_blockchain_misbehaviour_detection.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yousefscode/Xai-blockchain-misbehaviour-detection/blob/main/notebooks/xai_blockchain_misbehaviour_detection.ipynb)
 
 ---
 
@@ -105,7 +105,7 @@ Linear models fail on the UAV data because the attack signature lies in *combina
 │   ├── iot/               # TON_IoT telemetry CSVs (included)
 │   └── uav/               # UAVCAN .bin files (download separately, see data/README.md)
 ├── figures/               # result figures used in this README
-├── docs/dissertation.pdf  # full dissertation
+├── docs/MSc_Dissertation_Abdelghani.pdf  # full dissertation
 └── requirements.txt
 ```
 
@@ -116,8 +116,8 @@ Linear models fail on the UAV data because the attack signature lies in *combina
 **Locally:**
 
 ```bash
-git clone https://github.com/Yousefscode/IoT-and-UAV-Xai-blockchain-with-misbehavior-detection-and-LLM.git
-cd IoT-and-UAV-Xai-blockchain-with-misbehavior-detection-and-LLM
+git clone https://github.com/Yousefscode/Xai-blockchain-misbehaviour-detection.git
+cd Xai-blockchain-misbehaviour-detection
 pip install -r requirements.txt
 # put the UAVCAN files in data/uav/ (see data/README.md)
 jupyter notebook notebooks/xai_blockchain_misbehaviour_detection.ipynb
